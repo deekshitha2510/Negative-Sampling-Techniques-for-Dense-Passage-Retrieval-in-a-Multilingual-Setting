@@ -1,0 +1,126 @@
+# ============================================================================
+# .gitignore for RETRIVEX-PROJECT-REPO
+# ICT-P Baseline & AXL-ICT Enhancement
+# ============================================================================
+
+# ============================================================================
+# DATA & DATASETS (DON'T COMMIT LARGE DATA FILES)
+# ============================================================================
+data/
+datasets/
+*.csv
+msmarco_triples.csv
+mrtydi_train_balanced.csv
+mrtydi_test.csv
+
+# Downloaded datasets
+msmarco/
+mrtydi/
+processed/
+
+# ============================================================================
+# MODELS & CHECKPOINTS (TOO LARGE FOR GIT)
+# ============================================================================
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+
+# Specific model folders from your project
+ict_p_baseline/
+axl_ict/
+pFT_best.pt
+FT_best.pt
+
+# ============================================================================
+# LOGS & VISUALIZATIONS
+# ============================================================================
+logs/
+*.log
+*.png
+*.jpg
+
+# Your specific visualization outputs
+clusters_*.png
+evaluation_by_language.png
+axlict_training_curves_*.png
+axlict_vs_paper_*.png
+axlict_improvement_*.png
+
+# Results CSV files
+evaluation_results.csv
+final_comparison_*.csv
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment variables
+.env
+
+# ============================================================================
+# HUGGING FACE CACHE
+# ============================================================================
+.cache/
+huggingface/
+transformers_cache/
+sentence_transformers/
+
+# ============================================================================
+# IDE
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# OS
+# ============================================================================
+.DS_Store
+Thumbs.db
+
+# ============================================================================
+# GOOGLE COLAB / KAGGLE
+# ============================================================================
+/content/
+/kaggle/
+kaggle.json
+
+# ============================================================================
+# TEMPORARY FILES
+# ============================================================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# ============================================================================
+# KEEP THESE FILES (EXCEPTIONS)
+# ============================================================================
+!requirements.txt
+!README.md
+!setup.py
+!config_axl_ict.py
+!data_loader.py
+!ict_p_baseline.py
+!axl_novelties.py
+!visualisation.py
+!axl_novelties_evaluation.py

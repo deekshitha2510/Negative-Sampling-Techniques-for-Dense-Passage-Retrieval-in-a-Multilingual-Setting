@@ -1,0 +1,56 @@
+# ============================================================================
+# ICT-P Baseline & AXL-ICT Enhancement - Requirements
+# Python 3.11+ recommended
+# ============================================================================
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Transformers & NLP
+transformers==4.44.2
+tokenizers==0.19.1
+sentence-transformers>=2.2.0
+
+# Datasets & Data Processing
+datasets==3.1.0
+huggingface-hub==0.24.6
+numpy==1.26.4
+pandas==2.2.2
+pyarrow==16.1.0
+
+# Information Retrieval
+faiss-cpu==1.12.0
+# For GPU: faiss-gpu (Kaggle doesn't support, use CPU version)
+
+# Machine Learning
+scikit-learn>=1.2.2
+scipy>=1.10.0
+
+# Clustering & Embeddings
+faiss-cpu>=1.7.4
+
+# Visualization
+matplotlib>=3.7.2
+seaborn>=0.12.0
+
+# Progress & Utilities
+tqdm>=4.67.0
+fsspec==2.024.9.0
+
+# MT5 for Adversarial Negative Generation (Phase 2)
+# Included in transformers
+
+# Optional: Monitoring & Logging
+# tensorboard>=2.13.0
+# wandb>=0.15.0
+
+# Optional: IR Datasets
+# ir-datasets>=0.5.0
+# pyserini>=0.21.0
+
+# ============================================================================
+# Installation Command for Google Colab/Kaggle:
+# !pip install -r requirements.txt
+# ============================================================================
