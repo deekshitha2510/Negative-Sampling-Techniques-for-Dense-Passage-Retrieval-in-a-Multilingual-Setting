@@ -1,4 +1,4 @@
-# AXL-ICT: Adversarially-Enhanced Cross-Lingual ICT
+# AXL-ICT: Adversarially-Enhanced ICT
 
 > Negative Sampling Techniques for Dense Passage Retrieval in a Multilingual Setting
 ## 📖 Overview
@@ -16,7 +16,7 @@ AXL-ICT is a novel framework for multilingual dense passage retrieval that exten
 ## 🎯 Key Features
 
 ✅ **Teacher-Free** - No expensive cross-encoder models required  
-✅ **Efficient** - Single GPU training in ~48 hours  
+✅ **Efficient** - Single GPU training 
 ✅ **Multilingual** - Supports 11 typologically diverse languages  
 ✅ **Scalable** - Avoids repeated re-indexing like ANCE  
 
